@@ -1,0 +1,248 @@
+body,html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    height: 100%;
+}
+nav {
+    /* background-color: rgb(72, 71, 71); */
+    background: transparent;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+ ul {
+    list-style-type: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    /* z-index: 1; */
+
+}
+ ul li{
+    padding: 30px;
+}
+
+
+.logo{
+    height: 22px;
+    width: 84px;
+    padding: 30px;
+}
+
+a{
+    text-decoration: none;
+}
+a:visited{
+    color: white;
+}
+
+
+.brand {
+    background-image: url("/sunshine_root/asset/bg2.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    /* width:100%;*/
+    height: 100vh;
+    margin: 0;
+    text-align: center;
+    color: white;
+    margin-top: -90px;
+    position: relative;
+    z-index: -1;
+}
+
+.brand h1 {
+    margin:200px 0 0 0;
+    padding:10px 20px;
+    /* border:3px solid black; */
+    display: inline-block;
+    font-size: 70px;
+}
+
+
+.signup{
+    text-align: center;
+    padding: 20px;
+} 
+
+.signup span{
+    color: gray;
+    font-size: 32px;
+}
+.signup button{
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 12px;
+}
+
+
+.form-wrap{
+    background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.1); 
+  color: rgb(14, 0, 0);
+  font-weight: bold;
+  
+  text-align: center;
+    
+}
+
+.consultation-form {
+    text-align: center;
+    height: 100vh;
+    padding: 80px;
+
+   
+}
+
+.consultation-form h2{
+    font-size: 36px;
+    color: rgb(65, 2, 2);
+}
+.consultation-form span{
+    font-size: 22px;
+    color: black;
+    display: block;
+    padding: 20px;
+}
+
+.consultation-form form input{
+    display: block;
+    margin: 0 auto;
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid rgb(204, 201, 201);
+    margin-bottom: 10px;
+    width: 700px;
+    
+}
+
+.consultation-form form button, .bt-class{
+    background-color: green;
+    color: white;
+    font-size: 16px;
+    border: none;
+    padding: 12px;
+    /* height: 20px; */
+    width: 180px;
+}
+
+ .form-img{
+    
+    width:100%;
+    height: 100vh;
+    margin: 0;
+    text-align: center;
+    color: white;
+ 
+}
+
+.enquiry{
+    text-align: center;
+}
+
+.enquiry span{
+    display: block;
+    padding: 16px;
+}
+
+.call{
+    font-size: 24px;
+}
+
+.enq_form{
+    color: gray;
+    font-size: 18px;
+}
+
+.enquiry button{
+    background-color: green;
+    color: white;
+    font-size: 16px;
+    border: none;
+    padding: 12px;  
+
+}
+
+.products{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px ;
+    height: 100vh;
+    padding: 50px 30px;
+}
+
+.products img{
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+}
+.p1, .p2, .p3{
+    width: 33%;
+    /* border: 2px solid black; */
+    text-align: center  ;
+}
+
+
+.p-head{
+    font-size: 22px;
+    text-align: center;
+    font-weight: 900;
+    /* margin-bottom: 20px; */
+
+}
+
+.p-details{
+    list-style-type: disc;
+    text-align: justify;
+}
+
+.p-details li{
+    padding: 6px;
+    font-size: 18px;
+    /* margin-top: 20px; */
+}
+
+.subscribe{
+    height: 80vh;
+}
+.subscribe-wrap {
+    text-align: center;
+    
+}
+
+.subscribe h2{
+    font-size: 100px;
+}
+.subscribe-wrap form input{
+    border: none;
+    border-bottom: 2px solid gray;
+    width: 40%;
+    height: 40px;
+    margin-bottom: 20px;
+    /* display: block; */
+}
+
+.notify{
+    font-size: 40px;
+}
+
+.footer{
+    color: white;
+    background-color: black;
+    text-align: center;
+    height: 20vh;
+}
+
+.footer-list li{
+    margin: 0 auto;
+}    
+
+.footer-logo{
+    height: 22px;
+    width: 84px;
+    /* padding: 30px; */
+}
